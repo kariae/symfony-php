@@ -6,7 +6,8 @@ A PHP Docker image based on the official PHP Alpine image, and includes addition
 Please note that the image contains also [Composer](https://getcomposer.org/)
 
 ## Tags
-* 7, 7.1, latest [(Dockerfile)](https://github.com/kariae/symfony-php/blob/master/7.1/Dockerfile)
+* 7, 7.2, latest [(Dockerfile)](https://github.com/kariae/symfony-php/blob/master/7.2/Dockerfile)
+* 7.1 [(Dockerfile)](https://github.com/kariae/symfony-php/blob/master/7.1/Dockerfile)
 * 7.0 [(Dockerfile)](https://github.com/kariae/symfony-php/blob/master/7.0/Dockerfile)
 
 ## Contributing
@@ -19,6 +20,5 @@ First, **many thanks** for your contributions, please note that this repository 
 5. Submit a pull request :D
 
 ## TODO
-- [ ] Support other versions of PHP.
 - [ ] Support other distributions and variants of PHP.
 - [ ] Add environment variables to customize the image.
