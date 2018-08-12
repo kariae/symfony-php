@@ -20,5 +20,5 @@ First, **many thanks** for your contributions, please note that this repository 
 5. Submit a pull request :D
 
 ## TODO
-- [ ] Support other distributions and variants of PHP.
+- [x] Support other distributions and variants of PHP.
 - [ ] Add environment variables to customize the image.
