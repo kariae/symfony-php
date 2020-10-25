@@ -1,7 +1,5 @@
 FROM php:7.2-fpm-alpine
 
-MAINTAINER Zakariae Filali <filali.zakariae@gmail.com>
-
 ENV WORKDIR "/var/www/app"
 
 RUN apk upgrade --update && apk --no-cache add \
@@ -26,8 +24,7 @@ RUN yes '' | pecl install -f mcrypt
 RUN echo "extension=mcrypt.so" > /usr/local/etc/php/conf.d/mcrypt.ini
 
 # Add timezone
-RUN rm /etc/localtime && \
-    ln -s /usr/share/zoneinfo/UTC /etc/localtime && \
+RUN ln -s /usr/share/zoneinfo/UTC /etc/localtime && \
     "date"
 
 # Install composer

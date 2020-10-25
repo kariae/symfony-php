@@ -1,7 +1,5 @@
 FROM php:7.0-fpm-alpine
 
-MAINTAINER Zakariae Filali <filali.zakariae@gmail.com>
-
 ENV WORKDIR "/var/www/app"
 
 RUN apk upgrade --update && apk --no-cache add \

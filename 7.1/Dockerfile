@@ -1,7 +1,5 @@
 FROM php:7.1-fpm-alpine
 
-MAINTAINER Zakariae Filali <filali.zakariae@gmail.com>
-
 ENV WORKDIR "/var/www/app"
 
 RUN apk upgrade --update && apk --no-cache add \
@@ -20,8 +18,7 @@ RUN docker-php-ext-install -j$(nproc) gd iconv pdo pdo_mysql pdo_pgsql curl \
     bcmath mcrypt mbstring json xml xmlrpc zip intl opcache
 
 # Add timezone
-RUN rm /etc/localtime && \
-    ln -s /usr/share/zoneinfo/UTC /etc/localtime && \
+RUN ln -s /usr/share/zoneinfo/UTC /etc/localtime && \
     "date"
 
 # Install composer
