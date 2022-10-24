@@ -6,7 +6,9 @@ A PHP Docker image based on the official PHP Alpine image, and includes addition
 Please note that the image contains also [Composer](https://getcomposer.org/)
 
 ## Tags
-* 7, 7.2, latest [(Dockerfile)](https://github.com/kariae/symfony-php/blob/master/7.2/Dockerfile)
+* 8.0 [(Dockerfile)](https://github.com/kariae/symfony-php/blob/master/8.0/Dockerfile)
+* 7.4 [(Dockerfile)](https://github.com/kariae/symfony-php/blob/master/7.4/Dockerfile)
+* 7.2 [(Dockerfile)](https://github.com/kariae/symfony-php/blob/master/7.2/Dockerfile)
 * 7.1 [(Dockerfile)](https://github.com/kariae/symfony-php/blob/master/7.1/Dockerfile)
 * 7.0 [(Dockerfile)](https://github.com/kariae/symfony-php/blob/master/7.0/Dockerfile)
 
