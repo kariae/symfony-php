@@ -6,6 +6,7 @@ env:
   - PHPVERSION="7.1"
   - PHPVERSION="7.2"
   - PHPVERSION="7.4"
+  - PHPVERSION="8.0"
 
 script:
   - docker build -f ./${PHPVERSION}/Dockerfile -t ${PHPVERSION} ./${PHPVERSION}
